@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Playfair+Display:wght@400;500;600;700&display=swap');
+
+body{
+    background-color: rgb(135,80,45);
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Playfair Display', serif;
+}
+
+
+
+/* drinks */
+    .drinks-container .title-container{
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .drinks-container .title-container p{
+        width: 70%;
+    }
+    .drinks-container .title-container a{
+        text-decoration: none;
+        color: white;
+    }
+/* card one */
+    .custom-card-one{
+        background-color:rgb(190,145,97);
+        border-radius: 20px;
+        padding: 20px;
+        text-align: center;
+        color: white;
+        box-shadow: 0 25px 30px 1px rgba(0, 0, 0, 0.3);
+    }
+
+    .custom-card-one .details .order-btn{
+        background-color: white;
+        padding:10px 0;
+        box-shadow: 0 8px 7px 3px rgba(0, 0, 0, 0.2);
+        border-radius: 5px;
+        text-decoration: none;
+        color: black;
+    }
+    .custom-card-one .details{
+        display: flex;
+        flex-direction: column;
+    }
+    .custom-card-one .details .order-btn:hover{
+        background-color:rgb(221, 190, 157);
+        transition: all .4s;
+        color:white
+    }
+
+/* card two */
+    .custom-card-two{
+        background: rgb(177,144,120);
+        background: linear-gradient(90deg, rgba(177,144,120,1) 0%, rgba(117,144,120,1) 58%);
+        border-radius: 20px;
+        padding: 20px;
+        text-align: center;
+        color: white;
+        box-shadow: 0 25px 30px 1px rgba(0, 0, 0, 0.3);
+    }
+    .custom-card-two .details .order-btn{
+        background-color: white;
+        padding:10px 0;
+        box-shadow: 0 8px 7px 3px rgba(0, 0, 0, 0.2);
+        border-radius: 5px;
+        text-decoration: none;
+        color: black;
+    }
+    .custom-card-two .details{
+        display: flex;
+        flex-direction: column;
+    }
+    .custom-card-two .details .order-btn:hover{
+        background-color:rgb(165, 182, 167);
+        transition: all .4s;
+        color:white
+    }
+
+/* card three */
+    .custom-card-three{
+        background-color: rgb(43,37,35);
+        border-radius: 20px;
+        padding: 20px;
+        text-align: center;
+        color: white;
+        box-shadow: 0 25px 30px 1px rgba(0, 0, 0, 0.3);
+    }
+
+    .custom-card-three .details{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .custom-card-three .details .order-btn{
+        background-color: white;
+        padding:10px 0;
+        box-shadow: 0 8px 7px 3px rgba(0, 0, 0, 0.2);
+        border-radius: 5px;
+        text-decoration: none;
+        color: black;
+    }
+
+    .custom-card-three .details .order-btn:hover{
+        background-color: rgb(65, 58, 56);
+        transition: all .4s;
+        color:white
+    }
+
+/* iced coffee */
+    .ice-coffee-section{
+        background-image: url("/img/bg-04-free-img.png");
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .iced-coffee div .iced-coffee-intro{
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+    .iced-coffee div .iced-coffee-intro .line{
+        border: none;
+        border-bottom: 1px solid white;
+        height: 1px;
+        width: 20%;
+    }
+    .iced-coffee div .iced-coffee-intro h4{
+        color: rgb(201,177,162);
+    }
+    .iced-coffee div .iced-coffee-intro a{
+        color: white;
+        text-decoration: none;
+    }
+
+/* packed coffe for home */
+    .packed-coffe-container .packed-coffe{
+        border-radius: 30px;
+        box-shadow: 0 25px 30px 1px rgba(0, 0, 0, 0.3);
+        background: rgb(117,144,120);
+        background: linear-gradient(90deg, rgba(117,144,120,1) 33%, rgba(177,144,120,1) 100%);
+    }
+    .packed-coffe-container .packed-coffe div .packed-coffee-intro{
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+    }
+    .packed-coffe-container .packed-coffe div .packed-coffee-intro h4{
+        color: rgb(154, 185, 157);
+    }
+    .packed-coffe-container .packed-coffe div .packed-coffee-intro a{
+        color: white;
+        text-decoration: none;
+    }
+
+    /* about */
+    .about-container .about-description .about-left{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .about-container .about-description .about-right{
+        text-align: start;
+    }
+
+    /* croissant */
+    .croissant-container{
+        background-image: url("/img/bg-04-free-img.png");
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .croissant-container .croissant-intro .description{
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+    .croissant-container .croissant-intro .description h4{
+        color: rgb(201,177,162);
+    }
+
+    /* contact */
+    .contact-section{
+        background-image: url("/img/bg-005-free-img.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .contact-container{
+        background: rgb(177,144,120);
+        background: linear-gradient(90deg, rgba(177,144,120,1) 0%, rgba(117,144,120,1) 58%);
+        padding: 30px;
+        border-radius: 30px;
+        box-shadow: 0 25px 30px 1px rgba(0, 0, 0, 0.3);
+    }
+    .contact-container div .left-item form{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .contact-container div .left-item form input[type="text"]{
+        outline: none;
+        border: none;
+        margin-bottom: 20px;
+        padding: 15px 10px;
+        border-radius: 20px;
+        box-shadow: 2px 2px 2px 2px inset rgba(177,144,120,0.8);
+    }
+    .contact-container div .left-item form textarea{
+        outline: none;
+        border: none;
+        margin-bottom: 20px;
+        padding: 15px 10px;
+        border-radius: 20px;
+        box-shadow: 2px 2px 2px 2px inset rgba(177,144,120,0.8);
+        min-height: 13rem;
+        max-height: 13rem;
+    }
+    .contact-container div .left-item form button{
+        padding: 15px 0;
+        border: none;
+        border-radius: 10px;
+        box-shadow: 0 10px 10px 1px rgba(0, 0, 0, 0.3);
+    }
+    .contact-container div .left-item form button:hover{
+        background-color:rgb(165, 182, 167);
+        transition: all .4s;
+        color:white;
+    }
+
+    /* footer */
+    .footer-container .copy-right{
+        color: rgb(201,177,162);
+    }
+    .extra-info{
+        padding: 50px 0;
+        border: none;
+        border-bottom: 1px solid white;
+        border-top: 1px solid white;
+        color: white;
+    }

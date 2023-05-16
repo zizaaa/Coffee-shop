@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- fontawesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- css -->
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Home-Coffee Shop</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <div class="img-container"><img src="./img/logo-regular-free-img.png" class="img-fluid" alt=""></div>
+                    
+                    <!-- Hamburger button -->
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                        
+                    <!-- Nav menu -->
+                    <div class="collapse navbar-collapse" id="navmenu">
+                        <ul class="navbar-nav ms-auto fs-5 gap-3">
+                            <li class="nav-item">
+                                <a href="#about" class="nav-link">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#projects" class="nav-link">Menu</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#service" class="nav-link">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#service" class="nav-link">Gallery</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#contact" class="nav-link">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- hero section -->
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col text-light d-flex flex-column align-items-start justify-content-center">
+                    <h1>Welcome!</h1>
+                    <h1 class="mb-3">to our cozy coffee shop, where every sip is a journey and every aroma is a delight</h2>
+                    <p><span class="me-2"><i class="fa-solid fa-circle-play text-light"></i></span>High quality in every cup of coffee we serve...</p>
+                </div>
+                <div class="col d-none d-md-block relative">
+                    <img src="./img/hero-002-free-img.png" class="img-fluid" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- drinks -->
+    <section>
+        <div class="container drinks-container">
+            <div class="text-center text-light title-container">
+                <div class="title">
+                    <h1>Drinks</h1>
+                    <!-- line deisgn -->
+                    <!-- <span class="line"></span> -->
+                </div>
+                <p>Delicious drinks made with the finest ingredients, sustainability and ethical sourcing in mind. From coffee to iced tea and smoothies, we have something for everyone.</p>
+                <a href="#">All Drinks <span><i class="fa-solid fa-chevron-right"></i></span></a>
+            </div>
+            <div class="row gap-3">
+                <div class="col-md">
+                    <div class="custom-card-one">
+                        <img src="./img/product-01-free-img.png" class="img-fluid" alt="">
+                        <div class="details">
+                            <h3 class="price">&#8369;150.00</h3>
+                            <h1 class="product-name">Cappucino</h1>
+                            <p class="product-description">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor, voluptatem?
+                            </p>
+                            <a href="#" class="order-btn">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="custom-card-two">
+                        <img src="./img/product-02-free-img.png" class="img-fluid" alt="">
+                        <div class="details">
+                            <h3 class="price">&#8369;120.00</h3>
+                            <h1 class="product-name">Cappucino</h1>
+                            <p class="product-description">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor, voluptatem?
+                            </p>
+                            <a href="#" class="order-btn">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="custom-card-three">
+                        <img src="./img/product-03-free-img.png" class="img-fluid" alt="">
+                        <div class="details">
+                            <h3 class="price">&#8369;100.00</h3>
+                            <h1 class="product-name">Cappucino</h1>
+                            <p class="product-description">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor, voluptatem?
+                            </p>
+                            <a href="#" class="order-btn">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Iced Coffee -->
+    <section class="ice-coffee-section">
+        <div class="container iced-coffee">
+            <div class="row">
+                <div class="col-md iced-coffee-intro">
+                    <h4>From &#8369;50.00</h4>
+                    <h1>Iced Coffee</h1>
+                    <span class="line"></span>
+                    <h3 class="mt-3">From classic iced coffee</h3>
+                    <p>to unique and flavorful creations, we have something to satisfy every iced coffee lover's taste buds.</p>
+                    <a href="#">All Iced coffee <span><i class="fa-solid fa-chevron-right"></i></span></a>
+                </div>
+                <div class="col-md">
+                    <img src="./img/iced-coffee-img.png" class="img-fluid" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- packed coffee -->
+    <section class="packed-coffe-container">
+        <div class="container packed-coffe">
+            <div class="row p-5 p-lg-0">
+                <div class="col-md">
+                    <img src="./img/coffee-01-free-img.png" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg packed-coffee-intro">
+                    <h4>From &#8369;100.00</h4>
+                    <h1>Buy for Home</h1>
+                    <h3 class="mt-3">Our beans</h3>
+                    <p>are carefully selected and roasted to perfection, ensuring the same exceptional quality and flavor that you experience in our coffee shop.</p>
+                    <a href="#">All Coffee <span><i class="fa-solid fa-chevron-right"></i></span></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Croissants -->
+    <section class="croissant-container">
+        <div class="container">
+            <div class="row croissant-intro">
+                <div class="col img-container">
+                    <img src="./img/Basket-with-croissants-on-transparent-background-PNG.png" class="img-fluid" alt="">
+                </div>
+                <div class="col description">
+                    <h4>From &#8369;20.00</h4>
+                    <h1>Croissants</h1>
+                    <span class="line"></span>
+                    <h3 class="mt-3">Elevate your coffee experience</h3>
+                    <p>with our delectable croissants. Baked fresh daily and made with the finest ingredients, our croissants are the perfect addition to your morning coffee or midday break. Choose from a variety of classic and seasonal flavors, and savor every delicious bite at our coffee shop.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- contact -->
+    <section class="contact-section">
+        <div class="container contact-container">
+            <div class="row">
+                <div class="col-md left-item">
+                    <h1 class="text-light mb-3">Let's Connect</h1>
+                    <form action="#">
+                        <input type="text" placeholder="Name">
+                        <input type="text" placeholder="Email">
+                        <textarea name="message" placeholder="Message"></textarea>
+                        <button type="submit">Send</button>
+                    </form>
+                </div>
+                <div class="col-md">
+                    <img src="./img/bg-02-free-img.png" class="img-fluid" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container footer-container text-center mt-5">
+            <div class="row extra-info text-center">
+                <div class="col-md">
+                    <h4>About us</h4>
+                    <p>We're a passionate coffee shop dedicated to providing the best possible experience for our customers. From our expertly crafted coffee drinks to our delicious pastries, we're committed to using only the finest quality ingredients. Come visit us and experience our exceptional coffee for yourself.
+                    </p>
+                    <div>
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-twitter mx-4"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <h4>Contact</h4>
+                    <p>4ft Avenue, Konohagakure</p>
+                    <p>+123-456-789</p>
+                    <p>creamcoffee@gmail.com</p>
+                </div>
+                <div class="col-md">
+                    <h4>Opening hours</h4>
+                    <p>Mon - Fri: 6am - 11pm</p>
+                    <p>Sat: 6am - 6pm</p>
+                    <p>Sun: 8am - 8pm</p>
+                </div>
+            </div>
+            <p class="copy-right">Copyright &copy; 2023 Coffee Shop | Powered by zizaa</p>
+        </div>
+    </footer>
+    <!-- bootstrap cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
